@@ -7,6 +7,9 @@ Pascal_triangle
 def pascal_triangle(n):
     """Pascal triangle"""
     triangle = []
+    if n <= 0:
+        return triangle
+
     def coefficient(n, k):
         if k > n:
             return 0
