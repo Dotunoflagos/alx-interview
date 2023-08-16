@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """b"""
 
+
 def minOperations(n: int) -> int:
     """b"""
     process = 2
