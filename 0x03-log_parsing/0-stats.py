@@ -20,7 +20,9 @@ def main():
     try:
         for line in stdin:
             lineNumber += 1
-            line = line.split()
+            line = line.strip().split()
+            if len(line) != 9:
+                continue 
             try:
                 fileSize += int(line[-1])
                 if line[-2] in codes:
