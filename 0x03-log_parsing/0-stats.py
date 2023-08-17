@@ -34,9 +34,8 @@ def main():
                 report(fileSize, statusCodes)
                 lineNumber = 0
         report(fileSize, statusCodes)
-    except KeyboardInterrupt as e:
+    except KeyboardInterrupt:
         report(fileSize, statusCodes)
-        raise
 
 
 def report(fileSize, statusCodes):
