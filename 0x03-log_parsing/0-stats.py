@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
-225.137.79.34 - [2023-08-17 14:31:15.817595] "GET /projects/260 HTTP/1.1" 400 194
-<IP Address> - [<date>]               "GET /projects/260 HTTP/1.1" <status code> <file size>
+225.137.79.34
 """
 
 
